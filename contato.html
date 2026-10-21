@@ -10,52 +10,52 @@
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Metalúrgica Horizonte, página inicial">
-      <img src="img/logo.svg" alt="Logo da Metalúrgica Horizonte" width="48" height="48">
-      <span>METALÚRGICA <strong>HORIZONTE</strong></span>
+      <img class="brand__logo" src="img/logo.svg" alt="Logo da Metalúrgica Horizonte" width="48" height="48">
+      <span class="brand__name">METALÚRGICA <strong class="brand__highlight">HORIZONTE</strong></span>
     </a>
     <nav class="site-nav" aria-label="Navegação principal">
-      <a href="index.html">Início</a>
-      <a href="servicos.html">Serviços</a>
-      <a href="contato.html" aria-current="page">Contato</a>
+      <a class="site-nav__link" href="index.html">Início</a>
+      <a class="site-nav__link" href="servicos.html">Serviços</a>
+      <a class="site-nav__link site-nav__link--current" href="contato.html" aria-current="page">Contato</a>
     </nav>
   </header>
 
   <main>
-    <section class="page-intro contact-intro">
-      <p class="eyebrow"><span class="eyebrow-mark"></span> Estamos à disposição</p>
-      <h1>Vamos conversar<br>sobre o seu <em>projeto?</em></h1>
-      <p>Conte com a nossa equipe para entender sua necessidade e encontrar o melhor caminho de produção.</p>
+    <section class="page-intro page-intro--contact">
+      <p class="eyebrow"><span class="eyebrow__mark"></span> Estamos à disposição</p>
+      <h1 class="page-intro__title">Vamos conversar<br>sobre o seu <em class="page-intro__highlight">projeto?</em></h1>
+      <p class="page-intro__description">Conte com a nossa equipe para entender sua necessidade e encontrar o melhor caminho de produção.</p>
     </section>
 
-    <section class="contact-layout">
-      <div class="contact-details">
-        <article class="contact-item"><span class="contact-label">Endereço</span><address>Rua das Indústrias, 1000<br>Distrito Industrial<br>Cidade Exemplo – SP</address></article>
-        <article class="contact-item"><span class="contact-label">Telefone</span><a href="tel:+5511000000000">(11) 00000-0000</a></article>
-        <article class="contact-item"><span class="contact-label">E-mail</span><a href="mailto:contato@metalurgicahorizonte.example">contato@metalurgicahorizonte.example</a></article>
-        <article class="contact-item"><span class="contact-label">Atendimento</span><p>Segunda a sexta<br>Das 7h às 17h</p></article>
+    <section class="contact">
+      <div class="contact__details">
+        <article class="contact__item"><span class="contact__label">Endereço</span><address class="contact__value">Rua das Indústrias, 1000<br>Distrito Industrial<br>Cidade Exemplo – SP</address></article>
+        <article class="contact__item"><span class="contact__label">Telefone</span><a class="contact__value" href="tel:+5511000000000">(11) 00000-0000</a></article>
+        <article class="contact__item"><span class="contact__label">E-mail</span><a class="contact__value" href="mailto:contato@metalurgicahorizonte.example">contato@metalurgicahorizonte.example</a></article>
+        <article class="contact__item"><span class="contact__label">Atendimento</span><p class="contact__value">Segunda a sexta<br>Das 7h às 17h</p></article>
       </div>
-      <aside class="contact-aside">
-        <span class="aside-index">METALÚRGICA HORIZONTE · SP</span>
-        <div class="location-mark" aria-hidden="true"><span>MH</span><i></i></div>
-        <p>Distrito Industrial<br>Cidade Exemplo, São Paulo</p>
-        <a class="text-link" href="mailto:contato@metalurgicahorizonte.example">Enviar uma mensagem <span aria-hidden="true">↗</span></a>
+      <aside class="location-card">
+        <span class="location-card__index">METALÚRGICA HORIZONTE · SP</span>
+        <div class="location-card__mark" aria-hidden="true"><span>MH</span><i class="location-card__detail"></i></div>
+        <p class="location-card__address">Distrito Industrial<br>Cidade Exemplo, São Paulo</p>
+        <a class="text-link text-link--light" href="mailto:contato@metalurgicahorizonte.example">Enviar uma mensagem <span class="text-link__icon text-link__icon--light" aria-hidden="true">↗</span></a>
       </aside>
     </section>
 
-    <section class="faq-section">
-      <div class="faq-heading"><p class="eyebrow">Informações úteis</p><h2>Perguntas frequentes</h2></div>
-      <div class="faq-list">
-        <details><summary>Quais segmentos a Horizonte atende?</summary><p>Atendemos os mercados automotivo e agrícola, além de fabricantes de máquinas.</p></details>
-        <details><summary>Quais serviços podem ser contratados?</summary><p>Usinagem CNC, estamparia, solda robotizada MIG/MAG, pintura eletrostática a pó e zincagem.</p></details>
-        <details><summary>Como solicitar uma cotação?</summary><p>Envie os detalhes do projeto para <a href="mailto:contato@metalurgicahorizonte.example">contato@metalurgicahorizonte.example</a> ou ligue para (11) 00000-0000, de segunda a sexta, das 7h às 17h.</p></details>
+    <section class="faq">
+      <div class="faq__heading"><p class="eyebrow">Informações úteis</p><h2 class="faq__title">Perguntas frequentes</h2></div>
+      <div class="faq__list">
+        <details class="faq__item"><summary class="faq__question">Quais segmentos a Horizonte atende?</summary><p class="faq__answer">Atendemos os mercados automotivo e agrícola, além de fabricantes de máquinas.</p></details>
+        <details class="faq__item"><summary class="faq__question">Quais serviços podem ser contratados?</summary><p class="faq__answer">Usinagem CNC, estamparia, solda robotizada MIG/MAG, pintura eletrostática a pó e zincagem.</p></details>
+        <details class="faq__item"><summary class="faq__question">Como solicitar uma cotação?</summary><p class="faq__answer">Envie os detalhes do projeto para <a class="faq__link" href="mailto:contato@metalurgicahorizonte.example">contato@metalurgicahorizonte.example</a> ou ligue para (11) 00000-0000, de segunda a sexta, das 7h às 17h.</p></details>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <a class="brand brand-footer" href="index.html"><img src="img/logo.svg" alt="" width="40" height="40"><span>METALÚRGICA <strong>HORIZONTE</strong></span></a>
-    <p>Empresa fictícia criada para fins de desenvolvimento web.</p>
-    <span class="footer-copy">© 2026 Metalúrgica Horizonte Ltda.</span>
+    <a class="brand brand--footer" href="index.html"><img class="brand__logo" src="img/logo.svg" alt="" width="40" height="40"><span class="brand__name">METALÚRGICA <strong class="brand__highlight brand__highlight--footer">HORIZONTE</strong></span></a>
+    <p class="site-footer__disclaimer">Empresa fictícia criada para fins de desenvolvimento web.</p>
+    <span class="site-footer__copyright">© 2026 Metalúrgica Horizonte Ltda.</span>
   </footer>
 </body>
 </html>

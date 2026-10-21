@@ -10,65 +10,65 @@
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="Metalúrgica Horizonte, página inicial">
-      <img src="img/logo.svg" alt="Logo da Metalúrgica Horizonte" width="48" height="48">
-      <span>METALÚRGICA <strong>HORIZONTE</strong></span>
+      <img class="brand__logo" src="img/logo.svg" alt="Logo da Metalúrgica Horizonte" width="48" height="48">
+      <span class="brand__name">METALÚRGICA <strong class="brand__highlight">HORIZONTE</strong></span>
     </a>
     <nav class="site-nav" aria-label="Navegação principal">
-      <a href="index.html">Início</a>
-      <a href="servicos.html" aria-current="page">Serviços</a>
-      <a href="contato.html">Contato</a>
+      <a class="site-nav__link" href="index.html">Início</a>
+      <a class="site-nav__link site-nav__link--current" href="servicos.html" aria-current="page">Serviços</a>
+      <a class="site-nav__link" href="contato.html">Contato</a>
     </nav>
   </header>
 
   <main>
     <section class="page-intro">
-      <p class="eyebrow"><span class="eyebrow-mark"></span> Estrutura produtiva</p>
-      <h1>Processos integrados.<br><em>Precisão em escala.</em></h1>
-      <p>Da matéria-prima ao acabamento, reunimos tecnologia e controle para entregar componentes prontos para a sua operação.</p>
+      <p class="eyebrow"><span class="eyebrow__mark"></span> Estrutura produtiva</p>
+      <h1 class="page-intro__title">Processos integrados.<br><em class="page-intro__highlight">Precisão em escala.</em></h1>
+      <p class="page-intro__description">Da matéria-prima ao acabamento, reunimos tecnologia e controle para entregar componentes prontos para a sua operação.</p>
     </section>
 
     <section class="services-grid" aria-label="Serviços industriais">
       <article class="service-card">
-        <img src="img/usinagem.svg" alt="Centro de usinagem CNC trabalhando uma peça metálica" width="640" height="420">
-        <div class="service-card-body"><span class="service-number">01 / CNC</span><h2>Usinagem CNC</h2><p>Componentes de alta precisão em tornos e centros de usinagem, com tolerâncias de até 0,01 mm.</p><span class="service-detail">12 tornos · 8 centros</span></div>
+        <img class="service-card__image" src="img/usinagem.jpg" alt="Centro de usinagem CNC trabalhando uma peça metálica" width="640" height="420">
+        <div class="service-card__body"><span class="service-card__code">01 / CNC</span><h2 class="service-card__title">Usinagem CNC</h2><p class="service-card__description">Componentes de alta precisão em tornos e centros de usinagem, com tolerâncias de até 0,01 mm.</p><span class="service-card__capacity">12 tornos · 8 centros</span></div>
       </article>
       <article class="service-card">
-        <img src="img/estamparia.svg" alt="Prensa industrial conformando uma chapa metálica" width="640" height="420">
-        <div class="service-card-body"><span class="service-number">02 / CONFORMAÇÃO</span><h2>Estamparia</h2><p>Peças conformadas com repetibilidade e flexibilidade em prensas de diferentes capacidades.</p><span class="service-detail">Prensas de 60 a 250 t</span></div>
+        <img class="service-card__image" src="img/estamparia.jpg" alt="Prensa hidráulica industrial utilizada na conformação de peças metálicas" width="640" height="420">
+        <div class="service-card__body"><span class="service-card__code">02 / CONFORMAÇÃO</span><h2 class="service-card__title">Estamparia</h2><p class="service-card__description">Peças conformadas com repetibilidade e flexibilidade em prensas de diferentes capacidades.</p><span class="service-card__capacity">Prensas de 60 a 250 t</span></div>
       </article>
       <article class="service-card">
-        <img src="img/solda.svg" alt="Braço robotizado realizando solda MIG/MAG em uma estrutura metálica" width="640" height="420">
-        <div class="service-card-body"><span class="service-number">03 / UNIÃO</span><h2>Solda robotizada</h2><p>Células automatizadas de soldagem MIG/MAG para conjuntos consistentes e acabamento uniforme.</p><span class="service-detail">3 células robotizadas</span></div>
+        <img class="service-card__image" src="img/solda.jpg" alt="Braço robótico realizando soldagem industrial com faíscas" width="640" height="420">
+        <div class="service-card__body"><span class="service-card__code">03 / UNIÃO</span><h2 class="service-card__title">Solda robotizada</h2><p class="service-card__description">Células automatizadas de soldagem MIG/MAG para conjuntos consistentes e acabamento uniforme.</p><span class="service-card__capacity">3 células robotizadas</span></div>
       </article>
       <article class="service-card">
-        <img src="img/pintura.svg" alt="Peça metálica recebendo acabamento em uma linha de pintura industrial" width="640" height="420">
-        <div class="service-card-body"><span class="service-number">04 / ACABAMENTO</span><h2>Tratamento superficial</h2><p>Pintura eletrostática a pó e zincagem para proteção e acabamento das peças.</p><span class="service-detail">1 linha de pintura</span></div>
+        <img class="service-card__image" src="img/pintura.jpg" alt="Cabine de pintura industrial preparada para acabamento de peças" width="640" height="420">
+        <div class="service-card__body"><span class="service-card__code">04 / ACABAMENTO</span><h2 class="service-card__title">Tratamento superficial</h2><p class="service-card__description">Pintura eletrostática a pó e zincagem para proteção e acabamento das peças.</p><span class="service-card__capacity">1 linha de pintura</span></div>
       </article>
     </section>
 
-    <section class="capacity-section">
-      <div class="capacity-heading"><p class="eyebrow">Produção organizada em três turnos</p><h2>Capacidade por turno</h2><p>Estrutura preparada para dar previsibilidade à sua cadeia de produção.</p></div>
-      <div class="table-wrap">
-        <table>
-          <thead><tr><th scope="col">Processo</th><th scope="col">Capacidade</th><th scope="col">Estrutura</th></tr></thead>
+    <section class="capacity">
+      <div class="capacity__heading"><p class="eyebrow">Produção organizada em três turnos</p><h2 class="capacity__title">Capacidade por turno</h2><p class="capacity__description">Estrutura preparada para dar previsibilidade à sua cadeia de produção.</p></div>
+      <div class="capacity__table-wrap">
+        <table class="capacity__table">
+          <thead class="capacity__table-head"><tr><th class="capacity__column-heading" scope="col">Processo</th><th class="capacity__column-heading" scope="col">Capacidade</th><th class="capacity__column-heading" scope="col">Estrutura</th></tr></thead>
           <tbody>
-            <tr><th scope="row">Usinagem CNC</th><td>400 peças</td><td>12 tornos e 8 centros</td></tr>
-            <tr><th scope="row">Estamparia</th><td>500 peças</td><td>10 prensas</td></tr>
-            <tr><th scope="row">Solda robotizada</th><td>180 conjuntos</td><td>3 células</td></tr>
-            <tr><th scope="row">Pintura</th><td>300 peças</td><td>1 linha</td></tr>
+            <tr class="capacity__row"><th class="capacity__row-heading" scope="row">Usinagem CNC</th><td class="capacity__cell">400 peças</td><td class="capacity__cell">12 tornos e 8 centros</td></tr>
+            <tr class="capacity__row"><th class="capacity__row-heading" scope="row">Estamparia</th><td class="capacity__cell">500 peças</td><td class="capacity__cell">10 prensas</td></tr>
+            <tr class="capacity__row"><th class="capacity__row-heading" scope="row">Solda robotizada</th><td class="capacity__cell">180 conjuntos</td><td class="capacity__cell">3 células</td></tr>
+            <tr class="capacity__row"><th class="capacity__row-heading" scope="row">Pintura</th><td class="capacity__cell">300 peças</td><td class="capacity__cell">1 linha</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="table-note">Capacidades informadas por turno; volumes podem variar conforme as características de cada projeto.</p>
+      <p class="capacity__note">Capacidades informadas por turno; volumes podem variar conforme as características de cada projeto.</p>
     </section>
 
-    <section class="contact-banner"><div><p class="eyebrow">Vamos produzir juntos?</p><h2>Seu próximo projeto começa com uma conversa.</h2></div><a class="button button-primary" href="contato.html">Entre em contato <span aria-hidden="true">→</span></a></section>
+    <section class="contact-promo"><div><p class="eyebrow eyebrow--dark">Vamos produzir juntos?</p><h2 class="contact-promo__title">Seu próximo projeto começa com uma conversa.</h2></div><a class="button button--primary" href="contato.html">Entre em contato <span class="button__icon" aria-hidden="true">→</span></a></section>
   </main>
 
   <footer class="site-footer">
-    <a class="brand brand-footer" href="index.html"><img src="img/logo.svg" alt="" width="40" height="40"><span>METALÚRGICA <strong>HORIZONTE</strong></span></a>
-    <p>Empresa fictícia criada para fins de desenvolvimento web.</p>
-    <span class="footer-copy">© 2026 Metalúrgica Horizonte Ltda.</span>
+    <a class="brand brand--footer" href="index.html"><img class="brand__logo" src="img/logo.svg" alt="" width="40" height="40"><span class="brand__name">METALÚRGICA <strong class="brand__highlight brand__highlight--footer">HORIZONTE</strong></span></a>
+    <p class="site-footer__disclaimer">Empresa fictícia criada para fins de desenvolvimento web.</p>
+    <span class="site-footer__copyright">© 2026 Metalúrgica Horizonte Ltda.</span>
   </footer>
 </body>
 </html>
