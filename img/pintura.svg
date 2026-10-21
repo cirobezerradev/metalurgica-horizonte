@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Linha de tratamento superficial</title><desc id="desc">Peça metálica seguindo pela linha de pintura industrial para receber acabamento.</desc>
+  <rect width="640" height="420" fill="#e1e7ea"/><path d="M0 320h640v100H0z" fill="#263744"/>
+  <path d="M79 51h482v267H79z" fill="#1f2937"/><path d="M101 72h438v206H101z" fill="#385365"/>
+  <path d="M123 94h104v156H123z" fill="#6e8491"/><path d="M243 94h155v156H243z" fill="#2a4050"/><path d="M414 94h103v156H414z" fill="#667c89"/>
+  <path d="M139 108h72v132h-72z" fill="#a6b6bf"/><path d="M429 108h72v132h-72z" fill="#8fa1aa"/>
+  <path d="M257 113h127v12H257zm0 28h127v12H257zm0 28h127v12H257zm0 28h127v12H257" fill="#3776ab"/>
+  <path d="M135 273h369v15H135z" fill="#8f9fa8"/><path d="M156 288v24m328-24v24" stroke="#8f9fa8" stroke-width="8"/>
+  <path d="M186 258h47l16 14h-79z" fill="#bfcbd1"/><path d="M181 252h53v8h-53z" fill="#ffd43b"/>
+  <circle cx="185" cy="290" r="8" fill="#ffd43b"/><circle cx="226" cy="290" r="8" fill="#ffd43b"/>
+  <path d="M0 39h116m408 0h116" stroke="#3776ab" stroke-width="4"/><text x="39" y="389" fill="#d7dfe3" font-family="sans-serif" font-size="12" letter-spacing="2">PINTURA A PÓ · ZINCAGEM</text>
+</svg>

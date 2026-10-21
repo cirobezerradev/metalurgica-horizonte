@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title">
+  <title id="title">Símbolo da Metalúrgica Horizonte</title>
+  <path fill="#1F2937" d="M50 3 91 26.5v47L50 97 9 73.5v-47z"/>
+  <path fill="#3776AB" d="M25 25h12v50H25zm38 0h12v50H63z"/>
+  <path fill="#FFD43B" d="M37 43h26v14H37z"/>
+  <path fill="#F3F4F6" d="M46 46h8v8h-8z"/>
+  <path fill="none" stroke="#F3F4F6" stroke-width="2" d="M18 50h7m50 0h7"/>
+</svg>

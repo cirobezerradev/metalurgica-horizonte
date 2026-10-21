@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title id="title">Centro de usinagem CNC</title><desc id="desc">Ilustração técnica de um centro de usinagem CNC fabricando uma peça de metal.</desc>
+  <rect width="760" height="600" fill="#253544"/><path d="M0 472h760v128H0z" fill="#1F2937"/><path d="M0 0h760v44H0z" fill="#192530"/>
+  <path d="M34 79h441v344H34z" fill="#d6e0e5"/><path d="M54 100h402v282H54z" fill="#1f2937"/>
+  <path d="M72 119h366v231H72z" fill="#263b4b"/><path d="M94 143h321v183H94z" fill="#385c72"/>
+  <path d="M177 143h150v19H177zM177 305h150v21H177z" fill="#d0d9de"/><path d="M206 162h90v62h-90z" fill="#aebdc6"/>
+  <path d="M238 163h25v93h-25z" fill="#f3f4f6"/><path d="M218 253h65v15h-65z" fill="#ffd43b"/>
+  <path d="M151 268h198v46H151z" fill="#96a5af"/><path d="M168 279h164v18H168z" fill="#687d8a"/>
+  <path d="M198 268h88v-22h-88z" fill="#bfcbd1"/><circle cx="240" cy="257" r="10" fill="#ffd43b"/>
+  <path d="m242 247 30-28m-33 32 42-13m-44 5-19-27" stroke="#ffd43b" stroke-width="4"/>
+  <path d="M483 90h236v337H483z" fill="#e3e9ec"/><path d="M507 118h188v161H507z" fill="#263b4b"/>
+  <path d="M523 135h157v126H523z" fill="#3776ab"/><path d="M523 135h157v10H523z" fill="#a9c0d0"/>
+  <path d="M526 304h149v18H526zM526 334h149v18H526zM526 364h149v18H526z" fill="#8999a3"/>
+  <circle cx="654" cy="313" r="5" fill="#ffd43b"/><circle cx="654" cy="343" r="5" fill="#59a37a"/><circle cx="654" cy="373" r="5" fill="#c85a48"/>
+  <path d="M79 423h602v20H79zM109 443h24v29h-24zm493 0h24v29h-24z" fill="#c6d0d5"/>
+  <path d="M92 497h575v18H92zM113 515h27v54h-27zm504 0h27v54h-27z" fill="#475b68"/>
+  <path d="M0 570h760" stroke="#53636d" stroke-width="2"/><path d="M42 44h92" stroke="#ffd43b" stroke-width="5"/>
+  <text x="44" y="554" fill="#c9d3d9" font-family="sans-serif" font-size="13" letter-spacing="2">CNC · PRECISÃO 0,01 MM</text>
+</svg>
